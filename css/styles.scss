@@ -1,8 +1,38 @@
 $theme-colors: (
-        "primary": #43d93b,
-        "secondary": red
+        "primary": rgba(191, 185, 187, 0.69),
+        "secondary": #eaebdd,
+        "danger": #c5bfc2
 );
 
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bjerg.jpg");
+  -webkit-background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.banner-area h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Black";
+  color: #fff;
+  font-size: 4.5em;
+
+}
+
+.banner-area h2 span{
+  color: red;
+
+
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

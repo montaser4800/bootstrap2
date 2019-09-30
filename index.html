@@ -9,7 +9,7 @@
 <body>
 
 
-<div class="container">
+<div class="container bg-primary">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link bg-danger" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -46,7 +46,7 @@
             </form>
         </div>
     </nav>
-    <div class="r">
+    <div class="r bg-secondary">
         <div class="col">
             <div class="bg-secondary">
                 123
@@ -55,6 +55,25 @@
     </div>
 </div>
 
+<div class="banner-area">
+    <h2>Jeg er <span class="type"></span> </h2>
+</div>
+
+<script src="js/script.js"></script>
+<script>
+    var typed = new Typed(".type", {
+        strings: [
+            "designer",
+            "programmør",
+            "flittig",
+            "kreativ",
+            "hjernedød",
+        ],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true
+    });
+</script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
